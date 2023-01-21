@@ -140,7 +140,7 @@ p {
 }
 
 .mb-30 {
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 .main-content {
@@ -198,14 +198,14 @@ p {
 }
 
 #header .logo {
-  font-size: 25px;
-  margin: 0;
+  font-size: 15px;
+  margin: 0px;
   padding: 0;
   line-height: 1;
   font-weight: 600;
   letter-spacing: 1px;
-  font-family: monospace;
-  font-style: italic;
+  font-family: system-ui;
+  font-style: normal;
 }
 
 #header .logo a {
@@ -859,6 +859,8 @@ p {
 #contact {
   height: auto;
   width: 100%;
+  padding-left: 200px;
+  padding-top: 110px;
 }
 
 .contact-details {
@@ -1084,7 +1086,7 @@ blockquote {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #f7f7f7;
+  background: #e0e4e1;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -1107,7 +1109,7 @@ blockquote {
 
 #footer .socials-media ul li a {
   font-size: 24px;
-  color: #999;
+  color: #f17b7b;
   letter-spacing: 0.1em;
   font-weight: 500;
   background: transparent;
@@ -1116,7 +1118,7 @@ blockquote {
 }
 
 #footer .socials-media ul li a:hover {
-  color: #999;
+  color: rgb(0, 77, 37);
   transition: all 0.5s ease-in-out 0s;
 }
 
@@ -1228,6 +1230,7 @@ blockquote {
     float: none;
     display: inline-block;
   }
+
 }
 
 /** Width between 767px to 0
